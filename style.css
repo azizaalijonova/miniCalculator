@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -17,7 +22,7 @@ body {
 }
 
 .calculator .display {
-  width: 90%;
+  width: 100%;
   padding: 15px;
   margin-bottom: 10px;
   font-size: 1.2rem;
@@ -25,7 +30,6 @@ body {
   border: none;
   border-radius: 5px;
   background-color: #f0f0f5;
-  caret-color: black; /* Cursor color */
 }
 
 .calculator .buttons {
